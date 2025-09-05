@@ -13,15 +13,15 @@ public class AppController {
         return "redirect:http://localhost:3000";
     }
 
-//    @GetMapping("/login")
-//    public String login() {
-//        return "redirect:http://localhost:3000/login";
-//    }
-//
-//    @GetMapping("/register") 
-//    public String register() {
-//        return "redirect:http://localhost:3000/register";
-//    }
+    @GetMapping("/login")
+    public String login() {
+        return "redirect:http://localhost:3000/login";
+    }
+
+    @GetMapping("/register") 
+    public String register() {
+        return "redirect:http://localhost:3000/register";
+    }
 
     @GetMapping("/dashboard")
     public String dashboard() {
